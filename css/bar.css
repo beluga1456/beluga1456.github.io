@@ -1,0 +1,20 @@
+div.bottom-bar {
+    margin-top: 25px;
+
+    background-color: rgb(245, 245, 245);
+
+    width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+
+    color: rgb(200, 200, 200);
+}
+
+div.bar {
+    margin-top: 25px;
+
+    width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

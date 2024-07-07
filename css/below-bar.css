@@ -1,0 +1,65 @@
+div.below-bar {
+    display: flex;
+    background-color: rgba(135, 207, 235, 0.75);
+    width: 100px;
+    height: 538px;
+    flex-direction: column;
+    /* 竖向布局，从上往下 */
+    flex-wrap: nowrap;
+    /* 设置为不换行 */
+    justify-content: space-around;
+    /* 对齐方式 */
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+div.below-bar span.item {
+    text-align: center;
+    background-color: white;
+    opacity: 0.75;
+    width: 80%;
+    border: 2px dashed black;
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 12px;
+    margin: auto;
+}
+
+div.below-bar span.item:hover {
+    background-color: skyblue;
+    border: 2px solid red;
+}
+
+div.page {
+    background-color: deepskyblue;
+    width: 1075px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+div.page img.banner {
+    width: 80%;
+    border-radius: 10px;
+}
+
+div.page div.img {
+    width: 80%;
+    display: flex;
+
+    margin: auto;
+    margin-top: 25px;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.page div.img span {
+    width: 45%;
+    margin-bottom: 25px;
+}
+div.page div.img span img {
+    border-radius: 10px;
+}
